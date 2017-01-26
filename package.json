@@ -1,0 +1,23 @@
+{
+  "name": "app1",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "adal-angular": "^1.0.13",
+    "bootstrap": "^3.3.7",
+    "cross-env": "^3.1.4",
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
